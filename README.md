@@ -1,6 +1,6 @@
 # BATTLESHIP 
 
-My Python site is based on the classic boardgame of the same name. In my game, the user's computer randomly places 5 ships across the grid. The user must try and locate each ship, before they run out of guesses. 
+My Python site is based off of the classic boardgame of the same name. In my game, the user's computer randomly places 5 ships across the grid. The user must try and locate each ship, before they run out of guesses. 
 
 ## How to play the game
 1. Your computer will randomly generate 5 Battleships, across the grid.
@@ -21,7 +21,7 @@ I wanted the game to be both easy to navigate through, and easy to play.
 
 I wanted the instructions to be easy to read and learn. 
 
-I wanted the user to have enough opportunities to guess the ships coordinates. I rounded it down to 30 guesses being the best option for this.
+I wanted the user to have enough opportunities to guess the ships coordinates. I rounded it down to a total of 30 guesses, as being the best option for this.
 
 I tested the game out with family and friends. They were succesful in winning the game. 
 
@@ -53,6 +53,7 @@ There were no unsolved bugs in my project. I validated my code using [ExtendClas
 
 <img src="assets/images/extendsclass_screenshot.png" width=600 height=300>
 
+
 ## Testing 
 
 I tested the website on Google Chrome, Safari and Firefox. There were no issues on these browsers. 
@@ -60,6 +61,7 @@ I tested the website on Google Chrome, Safari and Firefox. There were no issues 
 I also tested my website using the Lighthouse validator. This was the result. 
 
 <img src="assets/images/lighthouse_screenshot.png" width=600 height=300>
+
 
 ## Deployment 
 
@@ -79,4 +81,4 @@ The live link to my website can be found here: [Battleship](https://battleshipga
 ## Credits 
 
 The coding for this website was inspired by the follwing [YouTube Tutorial](https://www.youtube.com/watch?v=alJH_c9t4zw).
-The 'Text-Art' for the game's logo was inspired from an example, from [ASCII Art](https://ascii.co.uk/art/battleship).
+The 'Text-Art' for the game's logo, was inspired from an example, from [ASCII Art](https://ascii.co.uk/art/battleship).
