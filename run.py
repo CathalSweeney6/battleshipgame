@@ -65,8 +65,7 @@ class Battleship:
         for i in range(5):
             self.x_col, self.y_row = random.randint(0, 7), random.randint(0, 7)
             while self.grid[self.x_col][self.y_row] == "X":
-                self.x_col, self.y_row = random.randint(0, 7),
-                random.randint(0, 7)
+                self.x_col, self.y_row = random.randint(0, 7), random.randint(0, 7)
             self.grid[self.x_col][self.y_row] = "X"
         return self.grid
 
