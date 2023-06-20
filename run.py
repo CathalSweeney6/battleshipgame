@@ -60,7 +60,7 @@ class GameGrid:
 class Battleship:
     def __init__(self, grid):
         self.grid = grid
-
+    # Generates hidden ships. 
     def generate_ships(self):
         for i in range(5):
             x_col, y_row = random.randint(0, 7), random.randint(0, 7)
@@ -68,7 +68,7 @@ class Battleship:
                 x_col, y_row = random.randint(0, 7), random.randint(0, 7)
             self.grid[x_col][y_row] = "X"
         return self.grid
-
+    # Gets player input. 
     def get_player_input(self):
         try:
             x_col = input("Enter Ship Row:\n")
@@ -87,7 +87,7 @@ class Battleship:
         except ValueError and KeyError:
             print("ERROR - Invalid Input")
             return self.get_player_input()
-
+    # Counts the ships.
     def count_ship_hits(self):
         ship_hits = 0
         for row in self.grid:
