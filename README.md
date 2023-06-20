@@ -9,7 +9,7 @@ My Python site is based on the classic boardgame of the same name. In my game, t
 
 3. The player must select a row (1, 2, 3...), and then a column (A, B, C...), in order to guess the coordinates.
 
-4. Tne player must try and sink the entire fleet, before they run out of guesses.
+4. The player must try and sink the entire fleet, before they run out of guesses.
 
 5. Sunken ships are marked with an "X."
 
