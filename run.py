@@ -63,10 +63,10 @@ class Battleship:
 
     def generate_ships(self):
         for i in range(5):
-            self.x_col, self.y_row = random.randint(0, 7), random.randint(0, 7)
-            while self.grid[self.x_col][self.y_row] == "X":
-                self.x_col, self.y_row = random.randint(0, 7), random.randint(0, 7)
-            self.grid[self.x_col][self.y_row] = "X"
+            x_col, y_row = random.randint(0, 7), random.randint(0, 7)
+            while self.grid[x_col][y_row] == "X":
+                x_col, y_row = random.randint(0, 7), random.randint(0, 7)
+            self.grid[x_col][y_row] = "X"
         return self.grid
 
     def get_player_input(self):
