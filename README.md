@@ -23,9 +23,9 @@ I wanted the instructions to be easy to read and learn.
 
 I wanted the user to have enough opportunities to guess the ships coordinates. I rounded it down to a total of 30 guesses, as being the best option for this.
 
-I tested the game out with family and friends. They were succesful in winning the game. 
+I tested the game out with family and friends. They were successful in winning the game. 
 
-Those that didn't win the game, wanted to replay the game and try again. I was happpy with this, as I wanted for people to want to replay the game after completion. 
+Those that didn't win the game, wanted to replay the game and try again. I was happy with this, as I wanted for people to want to replay the game after completion. 
 
 ## Colour scheme and design 
 
@@ -87,6 +87,6 @@ Heroku Deployment:
 
 ## Credits 
 
-The coding for this website was inspired by the follwing [YouTube Tutorial](https://www.youtube.com/watch?v=alJH_c9t4zw).
+The coding for this website was inspired by the following [YouTube Tutorial](https://www.youtube.com/watch?v=alJH_c9t4zw).
 
 The 'Text-Art' for the game's logo, was inspired from an example, from [ASCII Art](https://ascii.co.uk/art/battleship).
